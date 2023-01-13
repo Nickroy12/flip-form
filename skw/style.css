@@ -1,0 +1,76 @@
+.body{
+    height: 800px;
+}
+.container{
+    background: url('1.jpg');
+    background-size: cover;
+     width: 100%;
+}
+.header {
+	background-color: #d0d0d0;
+    text-align: center;
+}
+.header h1 {
+	color: #91714b;
+}
+.header a{
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px;
+    color: #000;
+    transition: all 2.5s ease-out;
+}
+.header a:hover{
+    width: 20px;
+    background: red;
+}
+/* END OF HEADER*/
+.control-label{
+    float: left;
+}
+.container .inner {
+	width: 450px;
+	margin: 100px auto;
+	border: 1px solid none;
+	background: #0000001c;
+	padding: 10px;
+	-webkit-transform: skew(12deg ,-5deg);
+	-moz-transform: skew(10deg.30deg);
+	-o-transform-origin: skw(10deg,30deg);
+	transition-duration: 0.7s;
+    
+}
+.container .inner:hover {
+
+	-webkit-transform: skew(0deg ,0deg);
+	-moz-transform: skew(0deg.0deg);
+	-o-transform-origin: skw(0deg,0deg);
+	border: none;
+    background: none;
+}
+.container .inner h1 {
+	text-align: center;
+	color: #3d5705;
+}
+.container .inner h2 {
+	text-align: center;
+	color: #3d5705;
+}
+.container .input{
+   width: 80%;
+   border: none;
+   background: transparent;
+   border-bottom: 2px solid red;
+   padding: 10px;
+   outline: none;
+}
+.button {
+	width: 61px;
+	padding: 8px 11px;
+	margin: 34px;
+	border-radius: 7px;
+    transition: all 0.7s;
+}
+.button:hover{
+    background:orange;
+}
